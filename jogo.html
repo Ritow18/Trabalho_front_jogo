@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe a Cor!</title>
+    <link rel="stylesheet" href="jogo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Adivinhe a Cor!</h1>
+        <p>Clique no botão com o nome da cor que você acha que foi sorteada!</p>
+
+        <div id="containerBotoesPalpite" style="margin-top: 20px; margin-bottom: 20px;">
+        </div>
+
+        <button id="botaoReiniciar" style="display:none;">Jogar Novamente</button>
+
+        <p id="exibirMensagem" style="margin-top: 15px; font-weight: bold;"></p>
+
+        <p>Cor Sorteada (após adivinhar): <span id="nomeCorReal">????</span></p>
+        <p>Tentativas: <span id="contagemTentativas">0</span></p>
+
+    </div>
+    <script src="jogo.js"></script>
+</body>
+</html>
